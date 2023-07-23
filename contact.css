@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(./images/slide1b.png);
+    background-color: black;
+}
+
+.top {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+}
+
+.top img {
+    width: 80px;
+}
+
+.top h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+}
+
+.top p {
+    font-size: 30px;
+    color: red;
+}
+
+.mid {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.mid-left,
+.mid-right {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+}
+
+.contact-info {
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+.contact-info h1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.ID-01 h3 {
+    font-size: 25px;
+}
+
+.ID-01 p {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.mid-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.cir-logo {
+    width: 30vw;
+    height: auto;
+    /* border: 1px dashed gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cir-logo img {
+    width: 100%;
+    border-radius: 50%;
+    border: 30px solid #12cbe4;
+    box-shadow: 0 0 25px 25px rgba(97, 178, 240, 0.35);
+}
+
+.cir-logo img:hover {
+    border: 30px solid red;
+    box-shadow: 0 0 25px 25px rgba(205, 67, 67, 0.35);
+}
+
+.nav-links {
+    /* border: 1px dashed gold; */
+    width: 10vw;
+    height: 100%;
+    font-size: 25px;
+}
+
+.nav-links ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-links li {
+    list-style: none;
+    padding: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    writing-mode: vertical-lr;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+
+
+
+.btm {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+}
+
+.btm-l {
+    width: 250px;
+}
+
+#Info-01 p {
+    font-size: 30px;
+}
+
+#Info-01 span {
+    font-size: 25px;
+}
+
+#Info-02 {
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+#Info-02 p {
+    color: #807f7f;
+}
+
+#Info-02 span {
+    color: red;
+}
+
+.btm-r p {
+    color: #807f7f;
+    width: 250px;
+}

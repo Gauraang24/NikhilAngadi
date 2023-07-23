@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+    <div class="top">
+      <div>
+        <a href="index.html"><img src="./images/Logo White.png" alt="Logo" /></a>
+        
+      </div>
+      <div>
+        <h1>Nikhil</h1>
+        <p>Angadi</p>
+      </div>
+    </div>
+
+
+    <div class="mid">
+      <div class="mid-container">
+        <div class="circle">
+          <img id="eyes" src="/images/closedEyes.png" alt="" />
+        </div>
+        <div class="nav">
+            <ul>
+              <li><a href="/about.html">ABOUT</a></li>
+              <li><a href="/work.html">MY WORK</a></li>
+              <li><a href="/contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+  
+
+
+    <div class="btm">
+      <div class="btm-l">
+        <div id="Info-01">
+          <p>Graphic Designer/ <span>Digital Marketing</span></p>
+        </div>
+        <div id="Info-02">
+          <p>From <span>IN</span></p>
+        </div>
+      </div>
+      <div class="btm-r">
+        <p>Copyright 2023 Nikhil Anngadi.All right reserved</p>
+      </div>
+    </div>
+  </body>
+  <script>
+    var images = document.getElementById("eyes");
+
+    images.addEventListener("mouseover", function(){
+      images.src = "./images/openEyes.png"
+    })
+    images.addEventListener("mouseout", function(){
+      images.src = "./images/closedEyes.png"
+    })
+  </script>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div>
+        <a href="index.html"><img src="./images/Logo White.png" alt="Logo" /></a>
+        
+      </div>
+      <div>
+        <h1>Nikhil</h1>
+        <p>Angadi</p>
+      </div>
+    </div>
+    <div class="mid">
+      <div class="mid-left">
+        <div class="contact-info">
+          <h1>Contact</h1>
+          <div class="ID-01">
+            <h3>Mobile Number</h3>
+            <p>+91 9834411801</p>
+          </div>
+          <div class="ID-01">
+            <h3>Gmail ID:</h3>
+            <p>nikdesign1623@gmail.com</p>
+          </div>
+          <div class="ID-01">
+            <h3>Location:</h3>
+            <p>Triveni Nagar, Nigdi, Pune - 411062</p>
+          </div>
+          <div class="social-media">
+            <img src="./images/White Behance.png" alt="logo" />
+            <img src="./images/White Behance.png" alt="logo" />
+            <img src="./images/White Behance.png" alt="logo" />
+          </div>
+        </div>
+      </div>
+      <div class="mid-right">
+        <div class="cir-logo">
+          <img id="eyes" src="./images/closedEyes.png" alt="" />
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/work.html">My Work</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="btm">
+      <div class="btm-l">
+        <div id="Info-01">
+          <p>Graphic Designer/ <span>Digital Marketing</span></p>
+        </div>
+        <div id="Info-02">
+          <p>From <span>IN</span></p>
+        </div>
+      </div>
+      <div class="btm-r">
+        <p>Copyright 2023 Nikhil Anngadi.All right reserved</p>
+      </div>
+    </div>
+  </body>
+  <script>
+    var images = document.getElementById("eyes");
+
+    images.addEventListener("mouseover", function(){
+      images.src = "./images/openEyes.png"
+    })
+    images.addEventListener("mouseout", function(){
+      images.src = "./images/closedEyes.png"
+    })
+  </script>
+</html>
